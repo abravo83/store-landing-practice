@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>agoodshop - La mejor tienda online de móviles</title>
+    <meta
+      name="description"
+      content="Tienda online de móbiles y de accesorios. Móbiles nuevos." />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header class="header__position">
+      <div class="header wrapper">
+        <section class="header-logo-block">
+          <p class="header-h1">agoodshop</p>
+        </section>
+        <nav class="navmenu">
+          <ul>
+            <li class="menulink">Tienda</li>
+            <li class="menulink">Accesorios</li>
+            <li class="menulink">Soporte</li>
+            <li>
+              <button class="btn btn-clear">Contactar</button>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="hamburger__icon"
+          onclick="toggleLateralMenu()"
+          title="Abrir Menú">
+          <img src="./img/bars3.svg" alt="Icono menú lateral" />
+        </button>
+      </div>
+    </header>
+    <main class="wrapper">
+      <article class="hero">
+        <figure class="hero__hero-img" title="El nuevo IFhone 13 Pro">
+          <img
+            class="img-responsive"
+            src="https://placehold.co/1000x1000"
+            alt="Una imagen del nuevo IFhone 13 Pro" />
+          <span class="hero__hero-img-sticker">128gb</span>
+        </figure>
+        <div class="hero__main">
+          <header>
+            <p class="hero__subtitle">OFERTA</p>
+            <h1>Compra un IFhone 13 Pro</h1>
+          </header>
+          <p>
+            IFhone 13: Tu nuevo superpoder. Nuestro sistema de cámara dual más
+            avanzado. El chip que hace morder el polvo a la competencia. Un
+            subidón de autonomía que vaya si notarás. Ceramic Shield, más duro
+            que cualquier vídrio de smartphone.
+          </p>
+          <p>
+            Pantalla Super Retina XDR de 6,1 pulgadas. Diseño robusto con bordes
+            planos y resistente al agua.
+          </p>
+          <p class="hero__price-line">
+            <span class="hero__price"> 938,99 €</span
+            ><button class="primary-btn" title="Agrega al carrito">
+              Comprar
+            </button>
+          </p>
+          <footer class="hero__actions">
+            <p class="hero__action">
+              <span
+                ><img
+                  src="/img/shop.svg"
+                  alt="Imagen de una tienda"
+                  class="img-responsive hero__action-img"
+              /></span>
+              <span> Envío rápido, gratuito y sin contacto </span>
+            </p>
+            <p class="hero__action">
+              <span>
+                <img
+                  class="img-responsive hero__action-img"
+                  src="/img/reload.svg"
+                  alt="Imagen de un bucle de retorno" />
+              </span>
+              <span> Devoluciones fáciles y gratuitas </span>
+            </p>
+            <p class="hero__action">
+              <span>
+                <img
+                  class="img-responsive hero__action-img"
+                  src="/img/dollar.svg"
+                  alt="Imagen con un símbolo de dólar." />
+              </span>
+              <span> Posibilidad de pago a plazos. </span>
+            </p>
+          </footer>
+        </div>
+      </article>
+      <section>
+        <h2>Accesorios recomendados</h2>
+        <div class="cards-section">
+          <article class="card" title="Cargador USB-C de 20W">
+            <header>
+              <figure>
+                <img
+                  class="img-responsive"
+                  src="https://placeholder.co/1000x600"
+                  alt="Una imagen de un cargador para IFhone 13 Pro." />
+              </figure>
+              <h3>Cargador</h3>
+            </header>
+            <p>
+              El adaptador de corriente USB-C de 20W es muy rápido y eficiente,
+              así que va de perlas para cargar tus dispositivos en cualquier
+              lugar.
+            </p>
+          </article>
+          <article class="card" title="Base de carga inalámbrica">
+            <header>
+              <figure>
+                <img
+                  class="img-responsive"
+                  src="https://placeholder.co/1000x600"
+                  alt="Una imagen de un cargador para IFhone 13 Pro." />
+              </figure>
+              <h3>Base de carga inalámbrica</h3>
+            </header>
+            <p><span class="badge badge--red">Oferta</span></p>
+            <p>
+              Sistema de soporte para que sigas usando tu smartphone cómodamente
+              mientras lo cargas. Compatible con carga rápida de 20W.
+            </p>
+          </article>
+          <article class="card" title="Funda de piel">
+            <header>
+              <figure>
+                <img
+                  class="img-responsive"
+                  src="https://placeholder.co/1000x600"
+                  alt="Una imagen de un cargador para IFhone 13 Pro." />
+              </figure>
+              <h3>Funda piel</h3>
+            </header>
+            <p>
+              Fabricadas en piel europea curtida y teñida con un proceso
+              especial, son suaves al tacto y adquieren un tono natural con el
+              tiempo. Los botones de aluminio combian a la perfección con el
+              acabado de la piel.
+            </p>
+          </article>
+          <article class="card" title="Nuevo cargador USB-C 20W">
+            <header>
+              <figure>
+                <img
+                  class="img-responsive"
+                  src="https://placeholder.co/1000x600"
+                  alt="Una imagen de un cargador para IFhone 13 Pro." />
+              </figure>
+              <h3>Cargador</h3>
+            </header>
+            <p><span class="badge badge--blue">Nuevo</span></p>
+            <p>
+              El adaptador de corriente USB-C de 20W es muy rápido y eficiente,
+              así que va de perlas para cargar tus dispositivos en cualquier
+              lugar.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <aside class="wrapper">
+      <div class="invite">
+        <article class="invite__article">
+          <header>
+            <h2 class="invite__title">
+              Participa en el sorteo de un IFhone 13
+            </h2>
+          </header>
+          <p>
+            Este verano, ¡venimos cargados de premios! Así que antes de irte de
+            vacaciones, ¡participa en nuestro sorteo! y podrás llevarte un
+            regalo increible como un nuevo IFhone 13
+          </p>
+          <p>Rellena este formulario para ser uno de los afortunados.</p>
+        </article>
+        <form>
+          <div class="invite__form-group">
+            <label class="invite__form-label" for="nombreConcurso"
+              >Nombre</label
+            >
+            <input
+              type="text"
+              name="nombre"
+              id="nombreConcurso"
+              onblur="ponerPlaceholderNombre(event)"
+              onfocus="quitarPlaceholder(event)"
+              placeholder="Ari Gold"
+              required />
+          </div>
+          <div class="invite__form-group">
+            <label class="invite__form-label" for="emailConcurso">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="emailConcurso"
+              placeholder="arigold@mga.com"
+              onblur="ponerPlaceholderEmail(event)"
+              onfocus="quitarPlaceholder(event)"
+              required />
+          </div>
+          <input
+            class="primary-btn invite__btn"
+            type="submit"
+            value="Enviar"
+            title="Enviar el formulario" />
+        </form>
+      </div>
+    </aside>
+    <footer>
+      <hr />
+      <p class="about-copyright"><span>©</span> agoodshop</p>
+    </footer>
+    <nav id="lateralmenu" class="lateral-menu">
+      <ul class="lateral-menu__navlist">
+        <li id="navheader" class="lateral-menu__navitem">
+          <span class="lateral-menu__close" onclick="toggleLateralMenu()"
+            >X</span
+          >
+          agoodshop
+        </li>
+        <li class="lateral-menu__navitem">Tienda</li>
+        <li class="lateral-menu__navitem">Accesorios</li>
+        <li class="lateral-menu__navitem">Soporte</li>
+        <li class="lateral-menu__navitem">Contactar</li>
+      </ul>
+    </nav>
+  </body>
+</html>
